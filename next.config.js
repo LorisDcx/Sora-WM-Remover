@@ -2,10 +2,10 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ['firebasestorage.googleapis.com'],
+    domains: ['localhost', 'replicate.delivery'],
   },
-  api: {
-    bodyParser: false,
+  eslint: {
+    ignoreDuringBuilds: false,
   },
 }
 
